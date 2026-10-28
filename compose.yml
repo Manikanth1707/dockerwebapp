@@ -11,7 +11,7 @@ services:
       - mynetwork
 
   application:
-    image: manikanth09/Webapp-oct:java
+    image: manikanth09/webapp-oct:java
     ports:
       - "1111:8080"
     deploy:
